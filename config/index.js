@@ -1,6 +1,6 @@
 export const config = {
   env: "local",
-  LOCAL_API_URL: "localhost:3000",
+  LOCAL_API_URL: "dino-summer.vercel.app",
   API_URL: "dino-summer.vercel.app",
   COLLECTION_NAME: "TinyDinosSummer2022",
   COLLECTION_TITLE: "tiny dinos: summer 2022 (unofficial)",
