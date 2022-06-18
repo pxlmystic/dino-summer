@@ -1,0 +1,17 @@
+#!/bin/bash
+
+rm ./collection.json
+echo "[" >> collection.json
+
+for (( i=1; i<=10000; i++))
+do
+  if (($i != 1))
+  then
+    echo "," >> ./collection.json
+  fi
+
+  curl https://alchemy.mypinata.cloud/ipfs/QmeBjpU8UZedsHc2SULDuBe48rBfwmZCLwvX5tgqKKHCXW/${i} >> ./collection.json
+done
+
+echo "]" >> ./collection.json
+
