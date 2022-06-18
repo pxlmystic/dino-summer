@@ -7,7 +7,7 @@ export const Footer = () => {
     <div className="flex flex-col border-t-1 border w-full p-4 mt-4 items-center text-xs justify-center">
       <a
         className="flex items-center mb-4 text-gray-600 hover:text-gray-900"
-        href="https://twitter.com/PaiNishant"
+        href="https://twitter.com/pxlmystic"
         target="_blank"
       >
         <span className="text-lg mr-1">
@@ -17,7 +17,7 @@ export const Footer = () => {
       </a>
       <a
         className="flex items-center mb-4 text-gray-600 hover:text-gray-900"
-        href="https://github.com/nishantrpai/rarity-score"
+        href="https://github.com/pxlmystic/dino-summer"
         target="_blank"
       >
         <span className="text-lg mr-1">
@@ -33,7 +33,7 @@ export const Footer = () => {
         <span className="text-lg mr-1">
           <FiCoffee />
         </span>
-        Buy me coffee
+        Buy @PaiNishant coffee (rarity-score dev)
       </a>
     </div>
   );
